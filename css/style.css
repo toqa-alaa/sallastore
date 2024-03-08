@@ -97,7 +97,10 @@ ul i {
 .topHeader ul li:not(:last-child)::after {
   margin-left: 43%;
 }
-
+.links li a{
+ text-decoration: none; 
+ color: inherit; 
+}
 .topHeader ul li:not(:last-child)::after {
   content: "";
   position: absolute;
@@ -400,10 +403,14 @@ header .flag {
     z-index: 10000;
     left: 15px;
     padding: 0;
+    padding: 5px 15px;
+    width: 150px;
   }
-  .drop-menu li {
+  .list .drop-menu li {
     margin: 10px;
     text-align: start;
+    padding:5px 10px ;
+    font-size: 14px;
   }
   .cart div{
     display: none;
