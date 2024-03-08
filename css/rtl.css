@@ -23,6 +23,11 @@ button {
   border-right: none;
   border-left: 1px solid var(--light-grey);
 }
+@media(max-width:991px){
+  .box:not(:last-of-type){
+       border-right: none; 
+    border-left: none;}
+}
 .sec-banner .text {
   top: 45%;
 }
