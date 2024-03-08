@@ -24,3 +24,7 @@ header .flag{
     
         top: 45%;
 }
+@media (max-width:767px) {
+    .banner .text {
+    top: 35%;
+}}
