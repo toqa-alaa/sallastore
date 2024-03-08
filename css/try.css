@@ -1,0 +1,209 @@
+@media screen and (max-width: 767px) {
+   
+    .container{
+       padding: 0 30px;
+   }
+   .topHeader .links{
+       display: none;
+   }
+   .topHeader ul{padding: 0;}
+   .topHeader ul li
+   {
+       display: flex;
+       align-items: center;
+       font-size: 14px;
+       justify-content: start;
+       padding-left: 0;
+       text-align: center;
+   }
+   .topHeader ul li:not(:last-child)::after {
+ 
+       margin-left:49%;
+       
+   }
+    .list .container {
+       display: none;
+   }
+   .secHeader .search{
+       display: none;
+   }
+   .secHeader .container {
+       justify-content: space-evenly;
+   }
+   .secHeader .profile {
+       gap: 0;
+   }
+   .secHeader .container .icon{
+       font-size: 20px;
+   }
+   .secHeader .container  .login div:not(.icon){
+       display: none;
+   }
+   .drop-down{
+       display: block;
+   
+
+   }.logo {
+       display: flex;
+       align-items: center;
+   }   
+ }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .container{
+       padding: 0 30px;
+   }
+   .topHeader .links{
+       display: none;
+   }
+   .topHeader ul{padding: 0;}
+   .topHeader ul li
+   {
+       display: flex;
+       align-items: center;
+       font-size: 14px;
+       justify-content: start;
+       padding-left: 0;
+       text-align: center;
+   }
+   .topHeader ul li:not(:last-child)::after {
+ 
+       margin-left:49%;
+       
+   }
+    .list .container {
+       display: none;
+   }
+   .secHeader .search{
+       display: none;
+   }
+   .secHeader .container {
+       justify-content: space-evenly;
+   }
+   .secHeader .profile {
+       gap: 0;
+   }
+   .secHeader .container .icon{
+       font-size: 20px;
+   }
+   .secHeader .container  .login div:not(.icon){
+       display: none;
+   }
+   .drop-down{
+       display: block;
+   
+
+   }.logo {
+       display: flex;
+       align-items: center;
+   }   
+}@media screen and(max-width:1199px) {
+    .container{
+     padding:0 50px
+    } 
+    .list ul li {
+
+        font-size: 16px;}
+ }
+
+
+ @media  (max-width: 991px) 
+ {
+     .banner .text {width: 80%;}
+     .banner .text div{
+         font-size:23px ;
+     }
+     .banner .text p{
+         font-size: 15px;
+     }
+ }
+
+
+
+
+
+ /******/
+ 
+@media  (max-width: 767px) {
+    .features .container{
+        flex-wrap: wrap;
+    }
+        .box:not(:last-of-type) {
+         border-right: none; 
+    }
+    .d-componant div{
+        font-size: 11px;
+    }
+    .d-componant h2{
+        font-size: 13px;
+    }
+    .d-componant span {
+     
+        font-size: 11px;
+    }
+ }
+
+ 
+
+@media (max-width: 991px) {
+   
+
+.d-componant div{
+    font-size: 14px;
+}
+.d-componant h2{
+    font-size: 16px;
+}
+.d-componant span {
+ 
+    font-size: 14px;
+}
+  }
+
+    @media  (max-width:1199px) {
+        .d-componant div{
+            font-size: 19px;
+        }
+        .d-componant h2 {
+         font-size: 21px;
+     }}
+     .d-componant span{
+        font-size: 19px;
+    }
+  
+
+
+/******/
+
+  
+@media screen and (max-width: 767px) {
+    .title-companint div{
+ font-size: 15px;
+    }
+    .title-companint p{
+ font-size: 13px;
+    }
+    .title-companint a{
+ font-size: 12px;
+    }
+ .products{
+     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+ }
+ .products .card .button a {
+  
+     padding: 13px 15px;
+     font-size: 12px;
+     align-self: center;
+ }
+   }
+   
+   /* تغييرات للأجهزة اللوحية وبعض الشاشات الكبيرة */
+   @media screen and (min-width: 768px) and (max-width: 1023px) {
+     /* اكتب القواعد هنا */
+   }
+   
+   /* تغييرات للشاشات الكبيرة مثل الحواسيب */
+   @media screen and (min-width: 1024px) {
+     /* اكتب القواعد هنا */
+   }
+ 

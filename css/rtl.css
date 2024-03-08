@@ -1,0 +1,26 @@
+header .flag{
+    right: 0px;
+}
+
+.topHeader ul li:not(:last-child)::after{
+    margin-right: 10px;
+     }
+     .cart{
+    padding-right: 10px;
+    }
+    button {  
+        right: 93%;}
+      
+        .banner .text {
+            
+            top: 65%;
+           
+        }
+        .box:not(:last-of-type){
+           border-right: none;
+            border-left: 1px solid var(--light-grey);
+         }
+.sec-banner .text {
+    
+        top: 45%;
+}
